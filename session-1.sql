@@ -13,7 +13,7 @@ SELECT *FROM tracks;
 
 SELECT DISTINCT Composer FROM tracks;
 
-SELECT DISTINCT AlbumId, MediaTypeId FROM tracks;
+SELECT  AlbumId, MediaTypeId FROM tracks;
 
 SELECT name FROM tracks WHERE Composer="Jimi Hendrix" ;
 
